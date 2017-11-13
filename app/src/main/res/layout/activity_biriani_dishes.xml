@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_biriani_dishes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/imgone"
+    tools:context="ingeniumbd.jannatmostafiz.khansbalti.BirianiDishes">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khan's Balti"
+                android:textColor="#fff"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_gravity="center" />
+        </android.support.v7.widget.Toolbar>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.1 Vegetable Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£6.45"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice"
+                            android:layout_marginBottom="25dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.2 Lamb or Chicken Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle2"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£6.95"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice2"
+                            android:layout_marginBottom="25dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.3 Prawn Biriani or Fish Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle3"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£7.45"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice3"
+                            android:layout_marginBottom="25dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.4 King Prawn Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle4"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£8.95"
+                            android:paddingLeft="5dp"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice4"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.5 King Prawn Tikka Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle5"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£9.45"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice5"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.6 Lamb or Chicken Tikka Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle6"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£7.45"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice6"
+                            android:layout_marginBottom="25dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.7 Mixed Tikka Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle7"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£7.95"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice7"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2.4.8 Special Biriani"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle8"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£8.95"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice8"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnhome"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgabout" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnspecials"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgspecialbtm" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnorder"
+                android:layout_width="69dp"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgorder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

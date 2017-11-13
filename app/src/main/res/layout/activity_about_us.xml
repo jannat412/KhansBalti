@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/imghome"
+    tools:context="ingeniumbd.jannatmostafiz.khansbalti.AboutUs">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khan's Balti"
+                android:textColor="#fff"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_gravity="center" />
+        </android.support.v7.widget.Toolbar>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/backround"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Khans Balti Paradise is a small, well managed Indian restaurant. Established in 1989, Khans has been serving authentic Indian Cuisine to the people of Sussex for over twenty years now, this prosperity has come about because of the exquisite food and service any customer of Khans can expect.\nA little about Khans Balti Paradise Restaurant:\n\nThe interior was recently renovated, and has a well deserved reputation for being comfortable and relaxed, it is well decorated and warm. (The second door protects patrons from draughts.)\nThe Staff are efficient, trustworthy and reliable. They are always happy to help, and ready to serve you when you want to be.\n\nYour welcome to bring your own drinks in! Khans invite you to half your bill by letting you bring in your own drinks, they will chill them for you and provide glasses, Its all part of the service! \nManagers name:\nKayshur Neazi (Naz)\n\nEmail\nkhansbalti@gmail.com\n\nTelephone number\n07983363380"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"
+                            android:padding="@dimen/activity_horizontal_margin"
+                            android:textAlignment="center"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnhome"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgabout" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnspecials"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgspecialbtm" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnorder"
+                android:layout_width="69dp"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgorder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_specials"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imgspecials"
+    tools:context="ingeniumbd.jannatmostafiz.khansbalti.Specials">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khan's Balti"
+                android:textColor="#fff"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_gravity="center" />
+        </android.support.v7.widget.Toolbar>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/backround"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Khans Balti Paradise's team work hard to make sure that each one of their customers is content and happy, thats why their policy is and always will be no charge to bring your own beverages. \n\n
+we pride ourselves on excellent cuisine and leave your choice of drinks in your hands. \n\nOldest and Finest Award Winning
+Indian Restaurant in Forest Row\n\n
+Now we are offering outside catering minimum of 15 people. We will provide
+hot food warmers plus the ctaering equipment you need. You can also book
+the Whole Restaurant From £295 (Including 3 course meal)"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp"
+                            android:padding="@dimen/activity_horizontal_margin"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/backround"
+                            android:gravity="center"
+                            android:padding="@dimen/activity_horizontal_margin"
+                            android:text="Our customers are welcome to bring their own drinks with them to save money"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold|italic"
+                            android:textSize="25sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription2"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnhome"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgabout" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnspecials"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgspecialbtm" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnorder"
+                android:layout_width="69dp"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgorder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

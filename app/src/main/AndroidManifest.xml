@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ingeniumbd.jannatmostafiz.khansbalti">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RestaurantView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Starters"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpecialtyExquisite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaltiDishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TandooriDishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BirianiDishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TraditionalDishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SideDishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sundries"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TandooriBread"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RiceDishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetMeals"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Order"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Specials"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reservation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaltiDishesInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BirianiDishesInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RiceDishesInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetMealsInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SideDishesInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpecialtyExquisiteInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartersInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SundriesInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TandooriBreadInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TandooriDishesInside"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TraditionalDishesInside"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".DeveloperInfo"></activity>
+    </application>
+
+</manifest>

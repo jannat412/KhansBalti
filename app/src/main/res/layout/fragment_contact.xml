@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imghome"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="ingeniumbd.jannatmostafiz.khansbalti.ContactFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/backround"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Khans Balti Indian Cuisine"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="25sp"
+                            android:padding="@dimen/activity_horizontal_margin"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#B2454545">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/backround"
+                            android:gravity="center"
+                            android:padding="@dimen/activity_horizontal_margin"
+                            android:text="6 Lewes Rd Forest Row.\n East Sussex. \n RH18 5ES. \n\nTelephone:	\n01342 826505/01342 826779 \n\n Information:\n	Open 7 Days a week\nAfternoons 12pm - 2pm \nEvenings 5.30pm - 11pm"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription2"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnhome"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgabout" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnspecials"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgspecialbtm" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnorder"
+                android:layout_width="69dp"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgorder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

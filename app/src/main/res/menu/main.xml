@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:orderInCategory="100"
+        android:icon="@drawable/mainhome"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/special"
+        android:orderInCategory="100"
+        android:icon="@drawable/special"
+        android:title="Specials"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/btmphone"
+        android:orderInCategory="100"
+        android:title="Call us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order"
+        android:orderInCategory="100"
+        android:icon="@drawable/order"
+        android:title="Order Now"
+        app:showAsAction="never" />
+
+
+</menu>

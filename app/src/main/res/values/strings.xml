@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Khans Balti</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="call_for_reservation">Call for Reservation</string>
+    <string name="_1_1_jhinga_achari">2.2.1 Jhinga Achari</string>
+    <string name="dishes">Tiger prawn cooked with fresh tomatoes in medium sauce, nigela and fenugreek seed used to give rich flavour. A popular dish amongst our customers.</string>
+    <string name="_1_2_khan_stuffed_chicken">2.2.2 Khan Stuffed Chicken</string>
+    <string name="dishestwo">Whole pieces of chicken breast stuffed with mixed vegetable and grilled in the tandoori than cooked in medium thick sauce to give mouth watering taste.</string>
+    <string name="butter">2.2.3 Butter Chicken</string>
+    <string name="garlic">Chicken tikka cooked with butter, garlic, fenugreek leaf clustered suger garnished with raw cashew nut</string>
+    <string name="_1_4_goul_bhoulta">2.2.4 Goul Bhoulta</string>
+    <string name="fish">Bangladeshi fish cooked with garlic, ginger and mixture of fresh herbs</string>
+    <string name="_1_5_lebu_goast">2.2.5 Lebu Goast</string>
+    <string name="lebu">Lamb cooked with chillies, lemon peel, ginger, garlic and lime juice.</string>
+    <string name="murgh">2.2.6 Murgh-a-Bahar</string>
+    <string name="_1_7_sha_kothi_chicken">2.2.7 Sha Kothi Chicken</string>
+    <string name="kothi">Chicken cooked with coconut, mustard, black pepper, red chillies and ginger.</string>
+    <string name="chicken">2.2.8 Lamb or Chicken Tikka Masala</string>
+    <string name="chickendetials"><![CDATA[Chicken or lamb grilled in a charcoal clay oven then marinated in mild spices & herbs, cooked in specially prepared, delicately flavoured creamy sauce. Can be served medium or hot according to your choice.]]></string>
+    <string name="mild">Mild and creamy dish with sliced mango, coconut and almond.</string>
+    <string name="_2_11_shimla_mirchi">2.2.11 Shimla Mirchi</string>
+    <string name="chicken_or_lamb_tikka_cooked_with_mushroom_and_potato_in_a_fairly_hot_sauce">Chicken or lamb tikka cooked with mushroom and potato in a fairly hot sauce.</string>
+    <string name="_2_12_king_prawn_tikka_masala">2.2.12 King Prawn Tikka Masala</string>
+    <string name="king">King prawns barbequed in charcoal oven and cooked in rich delicately flavoured sauce.</string>
+    <string name="lamb">Lamb or chicken tikka garnished with nuts, almonds cooked in a creamy sauce.</string>
+    <string name="tikka">2.2.13 Lamb or Chicken Tikka Pasanda</string>
+    <string name="small">Small pieces of chicken spiced and cooked with exotic spices and herbs, fresh green chilli, onions, tomatoes and green peppers.</string>
+    <string name="ice">Mint flavor ice Cream mixed with milky Chocolate pieces topped with attractive Decoration.</string>
+    <string name="real">Real Vanilla ice cream with honey Sauce and nuts with glazed almonds.</string>
+    <string name="pot">An exclusive ceramic pot with highly luxurious rich saffron and pistachio flavored ice cream Topped with nuts.</string>
+    <string name="strawberry">Frozen strawberry yoghurt rippled with strawberry sauce, decorated with wild blackberry in a glass bowl.</string>
+    <string name="cream">Mango ice cream rippled with passion fruit and garnished with papaya chunks served in a attractive Chinese bowl.</string>
+    <string name="prawn">King prawn pieces marinated in exotic spices and herbs, fresh green chilli, onions, tomatoes and green peppers</string>
+    <string name="lambhh">Tender cubes of lamb or chicken tikka marinated in fresh herbs and exotic spices, cooked in butter, coconut and almonds. Mild.</string>
+    <string name="made">King prawn marinated in herbs and selected spices and mastered sauce grilled in charcoal clay oven then cooked in frying pan with home made aubergine pickle.</string>
+    <string name="tikkahh">Chicken tikka marinated with garlic sauce and cooked with garlic butter and fresh garlic.</string>
+    <string name="lemon">Sour and spicy yoghurt sauce, aromatic mixed spices, garnished with lime pickle, lemon juice and tamarind.</string>
+    <string name="tandurii">Tender spring chicken marinated in herbs and selected spices, grilled in a charcoal clay oven.</string>
+    <string name="lambbbb">Diced lamb or chicken pieces marinated in spices and grilled in charcoal clay oven.</string>
+    <string name="salmon">Salmon marinated in tandoori spices then grilled over charcoal.</string>
+    <string name="kingggggg">Barbequed king prawn pieces marinated in spices and herbs, grilled with onion, tomato and green.</string>
+    <string name="tikkatikka"><![CDATA[Chicken tikka, lamb tikka, tandoori chicken & sheek kebab grilled in clay oven, served with nan.]]></string>
+    <string name="sheek">Chicken Tikka, Sheek Kebab, Chicken Korma, Lamb Korai, Vegetable Curry, Bombay Potato, Plain Rice, Pulao Rice, Nan Bread.</string>
+    <string name="onion">Chicken Tikka, Sheek Kebab, Onion Bhaji, Chicken Tikka Masala, Lamb Korai, Prawn Saag, Vegetable Curry, Saag Aloo, Mushroom Bhaji, 2 Pulao Rice, Nan Bread.</string>
+    <string name="setmeal">Chicken Tikka, Sheek Kebab, Onion Bhaji, Samosa, Chicken Korma, Lamb Jalfrezi, Prawn Saag, Chicken Tikka Masala, Mushroom Bhaji, Saag Bhaji, Tarka Dall, Bombay Potato, 2 Plain Rice, 2 Pulao Rice, Nan, Garlic Nan, Peshawari Nan.</string>
+    <string name="with">Stuffed with chicken tikka, garlic and coriander.</string>
+    <string name="baaal">Tender cubes of king prawn grilled in clay oven, then cooked with yoghurt in fresh herbs and exotic spices, cooked in butter, coconut and almonds. Mild and creamy.</string>
+    <string name="baallllll">Slice lamb or chicken tikka cooked with mince meat, yoghurt, exotic medium spices, special made sauce, served sizzling in an iron dish.</string>
+</resources>

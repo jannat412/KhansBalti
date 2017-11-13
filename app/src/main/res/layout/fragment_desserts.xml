@@ -1,0 +1,802 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imgfour"
+    tools:context="ingeniumbd.jannatmostafiz.khansbalti.DessertsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.1 Lemon and Orange"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp"
+                            android:id="@+id/foodtitle"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Delight Scooped Whole   Orange and Lemon refilled With Tangy sorbet."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£2.85"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice"
+                            android:layout_marginBottom="25dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.2 Hazelnut Delight"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle2"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Delectable Hazelnut ice cream with Thick chocolate sauce topped with Chopped hazel nuts"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription2" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£2.25"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice2"
+                            android:layout_marginBottom="25dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.3 Kulfi"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle3"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Traditional Indian ice cream from whole Milk and cream. Available in mango and pistachio."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£2.15"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice3"
+                            android:layout_marginBottom="25dp"/>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.4 Choco Mint"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle4"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="@string/ice"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription4" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.25"
+                            android:paddingLeft="5dp"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice4"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.5 Jumbo"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle5"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Elephant toy filled with strawberry flavored ice cream."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription5"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£2.20"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice5"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.6 Scooped ice cream"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle6"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Delicious, cool creamy ice cream in a vanilla, Strawberry and chocolate flavor."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription6" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£1.95"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice6"
+                            android:layout_marginBottom="25dp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.7 Coconut paradise"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle7"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Real life coconut shelled filed with Delicious coconut ice cream."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription7" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.25"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice7"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.8 Honey Pot"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle8"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="@string/real"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription8" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.45"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice8"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.9 Mango Delight"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle9"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Exotic mango sorbet filled into a real. Half mango skin."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription9"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.25"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodpric9"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.10 Motka kulfi"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle10"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="@string/pot"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription10" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£8.45"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice10"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.11 Pineapple Heaven"
+                            android:textColor="@android:color/white"
+                            android:textSize="27sp"
+                            android:id="@+id/foodtitle11"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Natural pineapple skin filled with deliciously cool pineapple ice cream."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription11" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.30"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice11"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.12 Romantica"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle12"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="@string/strawberry"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription12" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.55"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice12"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.13 Chocolate mousse"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle13"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="Chocolate mousse ice cream mousses topped with chocolate and ice cream."
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription13" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.35"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice13"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_margin="10dp"
+                    card_view:cardBackgroundColor="#aa8c8c8c">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3.14 Pride of khans balti paradise"
+                            android:textColor="@android:color/white"
+                            android:textSize="33sp"
+                            android:id="@+id/foodtitle14"
+                            android:textStyle="bold|italic"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B2454545"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#B2454545"
+                            android:text="@string/cream"
+                            android:textColor="@android:color/white"
+                            android:textSize="17sp"
+                            android:paddingLeft="5dp"
+                            android:id="@+id/fooddescription14" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="£3.55"
+                            android:textStyle="bold|italic"
+                            android:textColor="@android:color/white"
+                            android:textSize="23sp"
+                            android:paddingLeft="5dp"
+                            android:background="#99C51515"
+                            android:id="@+id/foodprice14"
+                            android:layout_marginBottom="25dp"/>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnhome"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgabout" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnspecials"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgspecialbtm" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnorder"
+                android:layout_width="69dp"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/imgorder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
